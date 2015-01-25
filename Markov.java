@@ -21,8 +21,8 @@ public class Markov {
     
     //Parse K and length.
     try {
-      int K = Integer.parseInt(args[0]);
-      int length = Integer.parseInt(args[1]);
+      K = Integer.parseInt(args[0]);
+      length = Integer.parseInt(args[1]);
     } catch (NumberFormatException e) {
       System.out.println("K and output length must be integers.");
       return;
