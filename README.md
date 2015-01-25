@@ -18,6 +18,7 @@ It'll keep adding characters in this manner until it reaches a user-specified li
 in the specified output file.
 
 compile: javac Markov.java
+
 run: java Markov <K> <length of output> <src text file> <output file>
 
-K: The number of character to analyze at a time.
+K = The number of character to analyze at a time.
