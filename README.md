@@ -1,7 +1,7 @@
 # MarkovMonkeys
 
-This program will take in a text file and, based on user input, will return output that follows the 
-frequency of specific letter patterns.
+This program will take in a text file and will return output that follows the 
+frequency of letter patterns.
 
 For example, say a file contains "the man, the plan, the pie" and the user specifies a depth of 4. 
 This program would go through every 4-length string and record what letter comes next. 
