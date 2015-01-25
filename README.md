@@ -19,6 +19,6 @@ in the specified output file.
 
 compile: javac Markov.java
 
-run: java Markov <K> <length of output> <src text file> <output file>
+run: java Markov [K] [length of output] [src text file] [output file]
 
 K = The number of character to analyze at a time.
